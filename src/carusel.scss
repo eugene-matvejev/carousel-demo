@@ -1,0 +1,35 @@
+.carusel {
+    &_container {
+        height: 50%;
+        display: flex;
+    }
+
+    &_title {
+        font-size: 2rem;
+    }
+
+    &_control {
+        &--left, &--right {
+            background: magenta;
+            padding: .5rem;
+            cursor: pointer;
+        }
+
+        &--left {
+            margin-right: .25rem;
+            border-bottom-left-radius: .5rem;
+            border-top-left-radius: .5rem;
+        }
+
+        &--right {
+            margin-left: .25rem;
+            border-bottom-right-radius: .5rem;
+            border-top-right-radius: .5rem;
+        }
+    }
+
+    &_controls {
+        display: flex;
+        justify-content: center;
+    }
+}
