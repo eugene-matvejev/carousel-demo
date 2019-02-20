@@ -1,3 +1,91 @@
+[circle.ci-master-badge]: https://circleci.com/gh/eugene-matvejev/carusel-demo/tree/master.svg?style=svg
+[circle.ci-master-link]: https://circleci.com/gh/eugene-matvejev/carusel-demo/tree/master
+[codecov.io-master-badge]: https://codecov.io/gh/eugene-matvejev/carusel-demo/branch/master/graph/badge.svg
+[codecov.io-master-link]: https://codecov.io/gh/eugene-matvejev/carusel-demo/branch/master
+
+[circle.ci-heroku-badge]: https://circleci.com/gh/eugene-matvejev/carusel-demo/tree/heroku.svg?style=svg
+[circle.ci-heroku-link]: https://circleci.com/gh/eugene-matvejev/carusel-demo/tree/heroku
+[codecov.io-heroku-badge]: https://codecov.io/gh/eugene-matvejev/carusel-demo/branch/heroku/graph/badge.svg
+[codecov.io-heroku-link]: https://codecov.io/gh/eugene-matvejev/carusel-demo/branch/heroku
+
+[slack_logo]: https://a.slack-edge.com/436da/marketing/img/slack_logo.png
+[slack_url]: https://join.slack.com/t/myth-project/shared_invite/enQtMjk2NTM0MDA5ODQ3LTg3ZDlmYTBiODIwODI0ZjhhMjc2NTgwMDMwNDc0NWMxNzExYzliM2UwYTEzNGMyMGRiZjg0ZTEyOTYwYzM0OTQ
+
+## join our [![join_us_on_slack][slack_logo]][slack_url] channel
+
+|                  | master                                                         | heroku
+|---               |---                                                             |---
+| __tests__        |
+| _< Circle CI >_  | [![build][circle.ci-master-badge]][circle.ci-master-link]      | [![build][circle.ci-heroku-badge]][circle.ci-heroku-link]
+| __coverage__     |
+| _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link] | [![coverage][codecov.io-heroku-badge]][codecov.io-heroku-link]
+
+
+# Carusel DEMO
+## TODO:
+* WIP - Code structure, quality and consistency
+* DONE - Technology choices
+* WIP - Accessibility
+* WIP - Cross browser compatibility
+* WIP - Responsiveness
+* WIP - Attention to detail
+* DONE - Clear documentation
+* DONE - Dependency management
+* WIP - Test quality
+
+
+## THIS IS SPARE TIME PROJECT, WORK IN PROGRESS!
+
+## software requirements
+
+* [node.js](https://nodejs.org/) v10+
+* [npm](https://www.npmjs.com/) v6+ or [yarn](https://yarnpkg.com/)
+
+## used technologies
+
+* [react.js](https://reactjs.org/) v16+
+* [enzyme](http://airbnb.io/enzyme/) v3+
+* [jest](https://facebook.github.io/jest/) v23+
+* [sass](https://sass-lang.com/)
+
+## user services
+
+* [CircleCI](https://circleci.com)
+* [Codecov](https://codecov.io/)
+  
+## used enviroment variables
+
+* __PORT__ - to serve assets from different port other than default [3000 for local development, 5000 for production]
+  * example: `$ PORT=8080 npm start`
+ 
+## how to install
+
+* `$ npm start`
+* __to assemble static assets__
+  * `$ npm run build` - compile app and assets, compiled app will be located in __./build__ directory
+
+## how to serve 'production' assets
+* `$ npm run build`
+* `$ npm run start:static` 
+
+## how to run tests
+
+* `$ npm test`
+* __optional__
+  * `--coverage` to generate coverage report [located in __./coverage__ directory]
+  * example: `$ npm test -- --coverage`
+  * [additional jest CLI params](https://facebook.github.io/jest/docs/en/cli.html)
+   
+## gitlow
+
+* master -> most upto date 'production' version
+* TODO: heroku -> demo branch [master is not deployed to heroku with every push, because of constrains on 'free account']
+* other branches -> 'feature branches' get merged into master
+* coverage report check / CI build is mandatory checks for every PR to be merged in
+
+
+
+
 # Publicis.Sapient Front End Senior Associate Test
 
 ## Introduction
