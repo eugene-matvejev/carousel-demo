@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carusel/> render with optional props ::limit as "1" 1`] = `
+<section
+  className="carusel"
+>
+  <div
+    className="carusel_container"
+  >
+    <CaruselItem
+      key="0"
+      position={0}
+      qaSelector="0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+  </div>
+  <div
+    className="carusel_controls"
+  >
+    <div
+      className="carusel_control--left"
+      data-cy="carusel-controller--left"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+    <div
+      className="carusel_control--right"
+      data-cy="carusel-controller--right"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<Carusel/> render with optional props ::position as "1" 1`] = `
+<section
+  className="carusel"
+>
+  <div
+    className="carusel_container"
+  >
+    <CaruselItem
+      key="0"
+      position={1}
+      qaSelector="0"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="1"
+      position={0}
+      qaSelector="1"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="2"
+      position={1}
+      qaSelector="2"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+  </div>
+  <div
+    className="carusel_controls"
+  >
+    <div
+      className="carusel_control--left"
+      data-cy="carusel-controller--left"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+    <div
+      className="carusel_control--right"
+      data-cy="carusel-controller--right"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<Carusel/> render with optional props ::qaSelector as "{{qaSelector}}" 1`] = `
+<section
+  className="carusel"
+>
+  <div
+    className="carusel_container"
+  >
+    <CaruselItem
+      key="0"
+      position={0}
+      qaSelector="{{qaSelector}}0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="1"
+      position={1}
+      qaSelector="{{qaSelector}}1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="2"
+      position={0}
+      qaSelector="{{qaSelector}}2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="3"
+      position={1}
+      qaSelector="{{qaSelector}}3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+  </div>
+  <div
+    className="carusel_controls"
+  >
+    <div
+      className="carusel_control--left"
+      data-cy="{{qaSelector}}carusel-controller--left"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+    <div
+      className="carusel_control--right"
+      data-cy="{{qaSelector}}carusel-controller--right"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<Carusel/> render with optional props ::title as "{{title}}" 1`] = `
+<section
+  className="carusel"
+>
+  <div
+    className="carusel_title"
+    data-cy="carusel-title"
+  >
+    {{title}}
+  </div>
+  <div
+    className="carusel_container"
+  >
+    <CaruselItem
+      key="0"
+      position={0}
+      qaSelector="0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="1"
+      position={1}
+      qaSelector="1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="2"
+      position={0}
+      qaSelector="2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="3"
+      position={1}
+      qaSelector="3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+  </div>
+  <div
+    className="carusel_controls"
+  >
+    <div
+      className="carusel_control--left"
+      data-cy="carusel-controller--left"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+    <div
+      className="carusel_control--right"
+      data-cy="carusel-controller--right"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<Carusel/> render with required/default props 1`] = `
+<section
+  className="carusel"
+>
+  <div
+    className="carusel_container"
+  >
+    <CaruselItem
+      key="0"
+      position={0}
+      qaSelector="0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="1"
+      position={1}
+      qaSelector="1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="2"
+      position={0}
+      qaSelector="2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="3"
+      position={1}
+      qaSelector="3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+  </div>
+  <div
+    className="carusel_controls"
+  >
+    <div
+      className="carusel_control--left"
+      data-cy="carusel-controller--left"
+      onClick={[Function]}
+    >
+      Prev
+    </div>
+    <div
+      className="carusel_control--right"
+      data-cy="carusel-controller--right"
+      onClick={[Function]}
+    >
+      Next
+    </div>
+  </div>
+</section>
+`;
