@@ -64,11 +64,16 @@
 
 ## how to run tests
 
+### unit and functional tests
 * `$ npm test`
 * __optional__
   * `--coverage` to generate coverage report [located in __./coverage__ directory]
   * example: `$ npm test -- --coverage`
   * [additional jest CLI params](https://facebook.github.io/jest/docs/en/cli.html)
+
+### intergration tests
+* `$ cd utils/cypress`
+* `$ npm test`
    
 ## gitlow
 

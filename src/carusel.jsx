@@ -62,7 +62,7 @@ export default class Carusel extends PureComponent {
                 {
                     items.map((props, i) => <CaruselItem
                         key={i}
-                        qaSelector={`${qaSelector}${i}`}
+                        qaSelector={`${qaSelector}carusel-item__${i}`}
                         {...props}
                         /** only for demo purposes, I injected this code to show that it rotate stuff properly, shouldn't be in production */
                         position={this.props.items.indexOf(props)}
