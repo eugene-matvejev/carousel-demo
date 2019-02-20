@@ -10,7 +10,7 @@ exports[`<Carusel/> render with optional props ::limit as "1" 1`] = `
     <CaruselItem
       key="0"
       position={0}
-      qaSelector="0"
+      qaSelector="carusel-item__0"
       src="{{src0}}"
       tags="{{tags0}}"
     />
@@ -46,21 +46,21 @@ exports[`<Carusel/> render with optional props ::position as "1" 1`] = `
     <CaruselItem
       key="0"
       position={1}
-      qaSelector="0"
+      qaSelector="carusel-item__0"
       src="{{src1}}"
       tags="{{tags1}}"
     />
     <CaruselItem
       key="1"
       position={0}
-      qaSelector="1"
+      qaSelector="carusel-item__1"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="2"
       position={1}
-      qaSelector="2"
+      qaSelector="carusel-item__2"
       src="{{src1}}"
       tags="{{tags1}}"
     />
@@ -96,28 +96,28 @@ exports[`<Carusel/> render with optional props ::qaSelector as "{{qaSelector}}" 
     <CaruselItem
       key="0"
       position={0}
-      qaSelector="{{qaSelector}}0"
+      qaSelector="{{qaSelector}}carusel-item__0"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="1"
       position={1}
-      qaSelector="{{qaSelector}}1"
+      qaSelector="{{qaSelector}}carusel-item__1"
       src="{{src1}}"
       tags="{{tags1}}"
     />
     <CaruselItem
       key="2"
       position={0}
-      qaSelector="{{qaSelector}}2"
+      qaSelector="{{qaSelector}}carusel-item__2"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="3"
       position={1}
-      qaSelector="{{qaSelector}}3"
+      qaSelector="{{qaSelector}}carusel-item__3"
       src="{{src1}}"
       tags="{{tags1}}"
     />
@@ -159,28 +159,28 @@ exports[`<Carusel/> render with optional props ::title as "{{title}}" 1`] = `
     <CaruselItem
       key="0"
       position={0}
-      qaSelector="0"
+      qaSelector="carusel-item__0"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="1"
       position={1}
-      qaSelector="1"
+      qaSelector="carusel-item__1"
       src="{{src1}}"
       tags="{{tags1}}"
     />
     <CaruselItem
       key="2"
       position={0}
-      qaSelector="2"
+      qaSelector="carusel-item__2"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="3"
       position={1}
-      qaSelector="3"
+      qaSelector="carusel-item__3"
       src="{{src1}}"
       tags="{{tags1}}"
     />
@@ -216,28 +216,28 @@ exports[`<Carusel/> render with required/default props 1`] = `
     <CaruselItem
       key="0"
       position={0}
-      qaSelector="0"
+      qaSelector="carusel-item__0"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="1"
       position={1}
-      qaSelector="1"
+      qaSelector="carusel-item__1"
       src="{{src1}}"
       tags="{{tags1}}"
     />
     <CaruselItem
       key="2"
       position={0}
-      qaSelector="2"
+      qaSelector="carusel-item__2"
       src="{{src0}}"
       tags="{{tags0}}"
     />
     <CaruselItem
       key="3"
       position={1}
-      qaSelector="3"
+      qaSelector="carusel-item__3"
       src="{{src1}}"
       tags="{{tags1}}"
     />
