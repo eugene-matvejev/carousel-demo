@@ -19,6 +19,7 @@
 | _< Circle CI >_  | [![build][circle.ci-master-badge]][circle.ci-master-link]      | [![build][circle.ci-heroku-badge]][circle.ci-heroku-link]
 | __coverage__     |
 | _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link] | [![coverage][codecov.io-heroku-badge]][codecov.io-heroku-link]
+
 [DEMO](https://carusel-demo.herokuapp.com/) it might take a while for first load, as it is 'free tier' heroku account
 
 # Carusel DEMO
