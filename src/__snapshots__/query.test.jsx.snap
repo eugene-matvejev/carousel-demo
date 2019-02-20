@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Query/> render with optional props ::qaSelector as "{{qaSelector}}" 1`] = `
+<div
+  className="lds-ripple"
+  data-cy="{{qaSelector}}is-loading"
+>
+  <div />
+  <div />
+</div>
+`;
+
+exports[`<Query/> render with required/default props 1`] = `
+<div
+  className="lds-ripple"
+  data-cy="is-loading"
+>
+  <div />
+  <div />
+</div>
+`;
