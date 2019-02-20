@@ -23,9 +23,15 @@
 
 # Carusel DEMO
 ## TODO:
-* cypress tests
-* more coverage on carusel.jsx
-* acessebility
+* WIP - Code structure, quality and consistency
+* DONE - Technology choices
+* WIP - Accessibility
+* WIP - Cross browser compatibility
+* WIP - Responsiveness
+* WIP - Attention to detail
+* DONE - Clear documentation
+* DONE - Dependency management
+* WIP - Test quality
 
 
 ## THIS IS SPARE TIME PROJECT, WORK IN PROGRESS!
