@@ -14,7 +14,12 @@ exports[`<CaruselItem/> render with optional props ::qaSelector as "{{qaSelector
       }
     }
   />
-  {{tags}}
+  <span
+    className="carusel-item__tags"
+    data-cy="{{qaSelector}}tags"
+  >
+    {{tags}}
+  </span>
 </div>
 `;
 
@@ -32,6 +37,11 @@ exports[`<CaruselItem/> render with required/default props 1`] = `
       }
     }
   />
-  {{tags}}
+  <span
+    className="carusel-item__tags"
+    data-cy="tags"
+  >
+    {{tags}}
+  </span>
 </div>
 `;
