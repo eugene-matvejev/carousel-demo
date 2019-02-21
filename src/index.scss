@@ -1,18 +1,11 @@
+@import "./parameters";
 
 @import "./carusel-item";
 @import "./carusel";
 @import "./query";
 
-svg {
-    // size: 
-}
-
 html, body, body > div {
     height: 100%;
-}
-
-body > div {
-    display: flex;
 }
 
 body {
@@ -23,4 +16,22 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    html {
+        font-size: 16px;
+    }
 }

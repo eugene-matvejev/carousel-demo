@@ -12,7 +12,7 @@ const CaruselItem = ({ src, position, tags, qaSelector }) =>
         >
             {position}
         </div>
-        {tags}
+        <span data-cy={`${qaSelector}tags`} className="carusel-item__tags">{tags}</span>
     </div>;
 
 CaruselItem.propTypes = {
