@@ -23,10 +23,10 @@ export default class Carusel extends PureComponent {
     }
 
     handleNewPosition(position) {
-        if (position > this.props.items.length) {
+        if (position >= this.props.items.length) {
             position = 0;
         } else if (position < 0) {
-            position = this.props.items.length;
+            position = this.props.items.length - 1;
         }
 
         const { limit } = this.props;
