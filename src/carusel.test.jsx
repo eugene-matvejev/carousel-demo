@@ -82,11 +82,11 @@ describe('<Carusel/>', () => {
             });
 
             it('from click on [data-cy="carusel-controller--left"], should set internal state field [::position] to [items amount in context - 1], as current position is 0', () => {
-                const c = shallow(<Carusel {...props} limit={2} position={1} />);
+                const c = shallow(<Carusel {...props} limit={2} />);
 
                 c.find('[data-cy="carusel-controller--left"]').simulate('click');
 
-                expect(c.state('position')).toBe(0);
+                expect(c.state('position')).toBe(1);
             });
         });
 
