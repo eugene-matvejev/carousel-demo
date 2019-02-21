@@ -32,7 +32,7 @@ export default class Carusel extends PureComponent {
         const { limit } = this.props;
         const items = this.props.items.slice(position, position + limit);
 
-        if (items.length < limit) {
+        while (items.length < limit) {
             items.push(...this.props.items.slice(0, limit - items.length));
         }
 

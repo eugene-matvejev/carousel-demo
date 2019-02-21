@@ -1,5 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Carusel/> internal callbacks ::handleNewPosition when [::limit] higher than a distance from [::position] till end of the queue, it should fill queue by injecting items from start of scope 1`] = `
+Array [
+  Object {
+    "src": "{{src0}}",
+    "tags": "{{tags0}}",
+  },
+  Object {
+    "src": "{{src1}}",
+    "tags": "{{tags1}}",
+  },
+  Object {
+    "src": "{{src0}}",
+    "tags": "{{tags0}}",
+  },
+]
+`;
+
+exports[`<Carusel/> internal callbacks ::handleNewPosition when [::limit] smaller than a distance from [::position] till end of the queue it should present elements in queue between [::position] and [::position + ::limit] 1`] = `
+Array [
+  Object {
+    "src": "{{src1}}",
+    "tags": "{{tags1}}",
+  },
+  Object {
+    "src": "{{src2}}",
+    "tags": "{{tags2}}",
+  },
+]
+`;
+
 exports[`<Carusel/> render with optional props ::limit as "1" 1`] = `
 <section
   className="carusel"
@@ -64,6 +94,20 @@ exports[`<Carusel/> render with optional props ::position as "1" 1`] = `
       src="{{src1}}"
       tags="{{tags1}}"
     />
+    <CaruselItem
+      key="3"
+      position={0}
+      qaSelector="carusel-item__3"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CaruselItem
+      key="4"
+      position={1}
+      qaSelector="carusel-item__4"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
   </div>
   <div
     className="carusel_controls"
@@ -120,6 +164,13 @@ exports[`<Carusel/> render with optional props ::qaSelector as "{{qaSelector}}" 
       qaSelector="{{qaSelector}}carusel-item__3"
       src="{{src1}}"
       tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="4"
+      position={0}
+      qaSelector="{{qaSelector}}carusel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
     />
   </div>
   <div
@@ -184,6 +235,13 @@ exports[`<Carusel/> render with optional props ::title as "{{title}}" 1`] = `
       src="{{src1}}"
       tags="{{tags1}}"
     />
+    <CaruselItem
+      key="4"
+      position={0}
+      qaSelector="carusel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
   </div>
   <div
     className="carusel_controls"
@@ -240,6 +298,13 @@ exports[`<Carusel/> render with required/default props 1`] = `
       qaSelector="carusel-item__3"
       src="{{src1}}"
       tags="{{tags1}}"
+    />
+    <CaruselItem
+      key="4"
+      position={0}
+      qaSelector="carusel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
     />
   </div>
   <div
