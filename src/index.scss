@@ -25,22 +25,23 @@ body {
         font-size: 12px;
     }
 
-    .carusel-item:not(:first-child) {
+    .carusel-item:not(:first-child):not(:nth-child(2)):not(:last-child) {
         display: none;
     }
 
     .carusel {
-        &_container &-item:first-child {
+        align-items: baseline;
+
+        &_container &-item:nth-child(2) {
             padding: 0;
         }
 
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         
-
         &_container {
             order: 2;
-            // position: relative;
+            position: relative;
             flex: initial;
         }
 
@@ -49,20 +50,19 @@ body {
             flex: 3 100%;
         }
 
-        &_control {
+        &_mobile-control {
             &--left, &--right {
+                top: 50%;
+
                 margin: 0;
 
-                position: relative;
-                width: 0;
-                padding: 0;
-                font-size: 0;
+                position: absolute;
 
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
 
-                // &::after,
+                &::after,
                 &::before {
                     font-size: 4rem;
                     position: absolute;
@@ -77,24 +77,35 @@ body {
             &--left {
                 order: 1;
 
+                left: 0;
                 &::after {
-
-                    content: '<'
+                    border-top-right-radius: 5rem;
+                    border-bottom-right-radius: 5rem;
+    
+                    padding: 1rem 0 1rem 0;
+                    text-align: left;
+                    content: '<';
                 }
             }
 
             &--right {
                 order: 3;
 
+                right: 4rem;
                 &::before {
                     border-top-left-radius: 5rem;
                     border-bottom-left-radius: 5rem;
     
                     padding: 1rem 0 1rem 0;
                     text-align: right;
-                    left: -4rem;
                     content: '>';
                 }
+            }
+        }
+
+        &_control {
+            &--left, &--right {
+                display: none;
             }
         }
     }
