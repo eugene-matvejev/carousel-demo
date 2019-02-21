@@ -6,8 +6,9 @@ const CaruselItem = ({ src, position, tags, qaSelector }) =>
         <div
             data-cy={qaSelector}
             className="carusel-item__image"
-            // background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
-            style={{background: `url("${src}") center no-repeat`}}
+            style={{
+                backgroundImage: `url("${src}")`,
+            }}
         >
             {position}
         </div>

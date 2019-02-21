@@ -10,7 +10,7 @@ exports[`<CaruselItem/> render with optional props ::qaSelector as "{{qaSelector
     data-cy="{{qaSelector}}"
     style={
       Object {
-        "background": "url(\\"{{src}}\\") center no-repeat",
+        "backgroundImage": "url(\\"{{src}}\\")",
       }
     }
   />
@@ -28,7 +28,7 @@ exports[`<CaruselItem/> render with required/default props 1`] = `
     data-cy=""
     style={
       Object {
-        "background": "url(\\"{{src}}\\") center no-repeat",
+        "backgroundImage": "url(\\"{{src}}\\")",
       }
     }
   />
