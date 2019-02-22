@@ -1,8 +1,8 @@
 import React from 'react';
-import CaruselItem from './carusel-item';
+import CarouselItem from './carousel-item';
 import { shallow } from 'enzyme';
  
-describe('<CaruselItem/>', () => {
+describe('<CarouselItem/>', () => {
     const props = {
         src: '{{src}}',
         tags: '{{tags}}',
@@ -10,7 +10,7 @@ describe('<CaruselItem/>', () => {
 
     describe('render', () => {
         it('with required/default props', () => {
-            const c = shallow(<CaruselItem {...props}/>);
+            const c = shallow(<CarouselItem {...props}/>);
 
             expect(c).toMatchSnapshot();
         });
@@ -20,7 +20,7 @@ describe('<CaruselItem/>', () => {
                 ['qaSelector', '{{qaSelector}}'],                
             ].forEach(([prop, v]) => {
                 it(`::${prop} as "${v}"`, () => {
-                    const c = shallow(<CaruselItem {...props} {...{[prop]: v}}/>);
+                    const c = shallow(<CarouselItem {...props} {...{[prop]: v}}/>);
 
                     expect(c).toMatchSnapshot();
                 });

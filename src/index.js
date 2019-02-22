@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import './index.scss';
 
-import Carusel from './carusel';
+import Carousel from './carousel';
 import Query from './query';
 
 const onMount = (_0, _1, onSuccess, onError) => {
@@ -33,7 +33,7 @@ const onMount = (_0, _1, onSuccess, onError) => {
 
 const App = () => <Query
     onMount={onMount}
-    children={(_, {data}) => <Carusel title="Carusel Test" items={data}/>}
+    children={(_, {data}) => <Carousel title="Carousel Test" items={data}/>}
 />;
 
 ReactDOM.render(<App/>, document.getElementById('root'));

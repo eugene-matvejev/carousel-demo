@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CarouselItem/> render with optional props ::qaSelector as "{{qaSelector}}" 1`] = `
+<div
+  className="carousel-item"
+  data-cy="{{qaSelector}}"
+>
+  <div
+    className="carousel-item__image"
+    data-cy="{{qaSelector}}"
+    style={
+      Object {
+        "backgroundImage": "url(\\"{{src}}\\")",
+      }
+    }
+  />
+  <span
+    className="carousel-item__tags"
+    data-cy="{{qaSelector}}tags"
+  >
+    {{tags}}
+  </span>
+</div>
+`;
+
+exports[`<CarouselItem/> render with required/default props 1`] = `
+<div
+  className="carousel-item"
+  data-cy=""
+>
+  <div
+    className="carousel-item__image"
+    data-cy=""
+    style={
+      Object {
+        "backgroundImage": "url(\\"{{src}}\\")",
+      }
+    }
+  />
+  <span
+    className="carousel-item__tags"
+    data-cy="tags"
+  >
+    {{tags}}
+  </span>
+</div>
+`;

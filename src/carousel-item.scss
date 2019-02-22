@@ -1,0 +1,28 @@
+.carousel-item {
+    flex: 1;
+    flex-basis: 15rem;
+
+    .carousel_container & {
+        padding-right: 2rem;
+
+        &:first-child {
+            padding-left: 2rem;
+        }
+    }
+
+    &__image {
+        font-size: 2rem;
+        text-indent: .75rem;
+        color: #fff;
+
+        width: 15rem;
+        height: 15rem;
+
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    &__tags {
+        color: $baseColour;
+    }
+}

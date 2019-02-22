@@ -1,27 +1,46 @@
-.carusel {
+.carousel {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+
     &_container {
-        height: 50%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        order: 1;
         display: flex;
+        flex: 3 100%;
+
+        background: #fff;
     }
 
     &_title {
         font-size: 2rem;
+        flex: 1;
+        color: $baseColour;
     }
 
     &_control {
         &--left, &--right {
-            background: magenta;
+            background: $baseColour;
+            color: #fff;
             padding: .5rem;
             cursor: pointer;
+
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            line-height: 1.5rem;
         }
 
         &--left {
+            order: 2;
             margin-right: .25rem;
             border-bottom-left-radius: .5rem;
             border-top-left-radius: .5rem;
         }
 
         &--right {
+            order: 3;
             margin-left: .25rem;
             border-bottom-right-radius: .5rem;
             border-top-right-radius: .5rem;
