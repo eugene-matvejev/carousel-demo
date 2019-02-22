@@ -22,7 +22,7 @@
 
 [DEMO](https://carusel-demo.herokuapp.com/) it might take a while for first load, as it is 'free tier' heroku account
 
-# Carusel DEMO
+# Carousel DEMO
 ## TODO:
 * WIP - Code structure, quality and consistency
 * DONE - Technology choices
