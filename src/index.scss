@@ -1,7 +1,7 @@
 @import "./parameters";
 
-@import "./carusel-item";
-@import "./carusel";
+@import "./carousel-item";
+@import "./carousel";
 @import "./query";
 
 html, body, body > div {
@@ -25,11 +25,11 @@ body {
         font-size: 12px;
     }
 
-    .carusel-item:not(:first-child):not(:nth-child(2)):not(:last-child) {
+    .carousel-item:not(:first-child):not(:nth-child(2)):not(:last-child) {
         display: none;
     }
 
-    .carusel {
+    .carousel {
         align-items: baseline;
 
         &_container &-item:nth-child(2) {

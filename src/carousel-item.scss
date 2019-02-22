@@ -1,8 +1,8 @@
-.carusel-item {
+.carousel-item {
     flex: 1;
     flex-basis: 15rem;
 
-    .carusel_container & {
+    .carousel_container & {
         padding-right: 2rem;
 
         &:first-child {

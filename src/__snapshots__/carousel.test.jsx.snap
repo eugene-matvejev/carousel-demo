@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel/> internal callbacks ::handleNewPosition when [::limit] higher than a distance from [::position] till end of the queue, it should fill queue by injecting items from start of scope 1`] = `
+Array [
+  Object {
+    "src": "{{src0}}",
+    "tags": "{{tags0}}",
+  },
+  Object {
+    "src": "{{src1}}",
+    "tags": "{{tags1}}",
+  },
+  Object {
+    "src": "{{src0}}",
+    "tags": "{{tags0}}",
+  },
+]
+`;
+
+exports[`<Carousel/> internal callbacks ::handleNewPosition when [::limit] smaller than a distance from [::position] till end of the queue it should present elements in queue between [::position] and [::position + ::limit] 1`] = `
+Array [
+  Object {
+    "src": "{{src1}}",
+    "tags": "{{tags1}}",
+  },
+  Object {
+    "src": "{{src2}}",
+    "tags": "{{tags2}}",
+  },
+]
+`;
+
+exports[`<Carousel/> render with optional props ::limit as "1" 1`] = `
+<section
+  className="carousel"
+>
+  <div
+    className="carousel_container"
+  >
+    <div
+      className="carousel_mobile-control--left"
+      data-cy="carousel-mobile-controller--left"
+      onClick={[Function]}
+    />
+    <CarouselItem
+      key="0"
+      position={0}
+      qaSelector="carousel-item__0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <div
+      className="carousel_mobile-control--right"
+      data-cy="carousel-mobile-controller--right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="carousel_control--left"
+    data-cy="carousel-controller--left"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="carousel_control--right"
+    data-cy="carousel-controller--right"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+</section>
+`;
+
+exports[`<Carousel/> render with optional props ::position as "1" 1`] = `
+<section
+  className="carousel"
+>
+  <div
+    className="carousel_container"
+  >
+    <div
+      className="carousel_mobile-control--left"
+      data-cy="carousel-mobile-controller--left"
+      onClick={[Function]}
+    />
+    <CarouselItem
+      key="0"
+      position={1}
+      qaSelector="carousel-item__0"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="1"
+      position={0}
+      qaSelector="carousel-item__1"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="2"
+      position={1}
+      qaSelector="carousel-item__2"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="3"
+      position={0}
+      qaSelector="carousel-item__3"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="4"
+      position={1}
+      qaSelector="carousel-item__4"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <div
+      className="carousel_mobile-control--right"
+      data-cy="carousel-mobile-controller--right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="carousel_control--left"
+    data-cy="carousel-controller--left"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="carousel_control--right"
+    data-cy="carousel-controller--right"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+</section>
+`;
+
+exports[`<Carousel/> render with optional props ::qaSelector as "{{qaSelector}}" 1`] = `
+<section
+  className="carousel"
+>
+  <div
+    className="carousel_container"
+  >
+    <div
+      className="carousel_mobile-control--left"
+      data-cy="{{qaSelector}}carousel-mobile-controller--left"
+      onClick={[Function]}
+    />
+    <CarouselItem
+      key="0"
+      position={0}
+      qaSelector="{{qaSelector}}carousel-item__0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="1"
+      position={1}
+      qaSelector="{{qaSelector}}carousel-item__1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="2"
+      position={0}
+      qaSelector="{{qaSelector}}carousel-item__2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="3"
+      position={1}
+      qaSelector="{{qaSelector}}carousel-item__3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="4"
+      position={0}
+      qaSelector="{{qaSelector}}carousel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <div
+      className="carousel_mobile-control--right"
+      data-cy="{{qaSelector}}carousel-mobile-controller--right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="carousel_control--left"
+    data-cy="{{qaSelector}}carousel-controller--left"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="carousel_control--right"
+    data-cy="{{qaSelector}}carousel-controller--right"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+</section>
+`;
+
+exports[`<Carousel/> render with optional props ::title as "{{title}}" 1`] = `
+<section
+  className="carousel"
+>
+  <div
+    className="carousel_title"
+    data-cy="carousel-title"
+  >
+    {{title}}
+  </div>
+  <div
+    className="carousel_container"
+  >
+    <div
+      className="carousel_mobile-control--left"
+      data-cy="carousel-mobile-controller--left"
+      onClick={[Function]}
+    />
+    <CarouselItem
+      key="0"
+      position={0}
+      qaSelector="carousel-item__0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="1"
+      position={1}
+      qaSelector="carousel-item__1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="2"
+      position={0}
+      qaSelector="carousel-item__2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="3"
+      position={1}
+      qaSelector="carousel-item__3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="4"
+      position={0}
+      qaSelector="carousel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <div
+      className="carousel_mobile-control--right"
+      data-cy="carousel-mobile-controller--right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="carousel_control--left"
+    data-cy="carousel-controller--left"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="carousel_control--right"
+    data-cy="carousel-controller--right"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+</section>
+`;
+
+exports[`<Carousel/> render with required/default props 1`] = `
+<section
+  className="carousel"
+>
+  <div
+    className="carousel_container"
+  >
+    <div
+      className="carousel_mobile-control--left"
+      data-cy="carousel-mobile-controller--left"
+      onClick={[Function]}
+    />
+    <CarouselItem
+      key="0"
+      position={0}
+      qaSelector="carousel-item__0"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="1"
+      position={1}
+      qaSelector="carousel-item__1"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="2"
+      position={0}
+      qaSelector="carousel-item__2"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <CarouselItem
+      key="3"
+      position={1}
+      qaSelector="carousel-item__3"
+      src="{{src1}}"
+      tags="{{tags1}}"
+    />
+    <CarouselItem
+      key="4"
+      position={0}
+      qaSelector="carousel-item__4"
+      src="{{src0}}"
+      tags="{{tags0}}"
+    />
+    <div
+      className="carousel_mobile-control--right"
+      data-cy="carousel-mobile-controller--right"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="carousel_control--left"
+    data-cy="carousel-controller--left"
+    onClick={[Function]}
+  >
+    Prev
+  </div>
+  <div
+    className="carousel_control--right"
+    data-cy="carousel-controller--right"
+    onClick={[Function]}
+  >
+    Next
+  </div>
+</section>
+`;

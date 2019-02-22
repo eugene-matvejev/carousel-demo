@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import CaruselItem from './carusel-item';
+import CarouselItem from './carousel-item';
 
-export default class Carusel extends PureComponent {
+export default class Carousel extends PureComponent {
     constructor({ position }) {
         super();
 
@@ -50,23 +50,23 @@ export default class Carusel extends PureComponent {
         const { qaSelector, title } = this.props;
         const { items } = this.state;
 
-        return <section className="carusel">
+        return <section className="carousel">
             {
                 title &&
-                <div data-cy={`${qaSelector}carusel-title`} className="carusel_title">
+                <div data-cy={`${qaSelector}carousel-title`} className="carousel_title">
                     {title}
                 </div>
             }
-            <div className="carusel_container">
+            <div className="carousel_container">
                 <div
                     onClick={this.onClickLeft}
-                    data-cy={`${qaSelector}carusel-mobile-controller--left`}
-                    className="carusel_mobile-control--left"
+                    data-cy={`${qaSelector}carousel-mobile-controller--left`}
+                    className="carousel_mobile-control--left"
                 />
                 {
-                    items.map((props, i) => <CaruselItem
+                    items.map((props, i) => <CarouselItem
                         key={i}
-                        qaSelector={`${qaSelector}carusel-item__${i}`}
+                        qaSelector={`${qaSelector}carousel-item__${i}`}
                         {...props}
                         /** only for demo purposes, I injected this code to show that it rotate stuff properly, shouldn't be in production */
                         position={this.props.items.indexOf(props)}
@@ -74,21 +74,21 @@ export default class Carusel extends PureComponent {
                 }
                 <div
                     onClick={this.onClickRight}
-                    data-cy={`${qaSelector}carusel-mobile-controller--right`}
-                    className="carusel_mobile-control--right"
+                    data-cy={`${qaSelector}carousel-mobile-controller--right`}
+                    className="carousel_mobile-control--right"
                 />
             </div>
             <div
                 onClick={this.onClickLeft}
-                data-cy={`${qaSelector}carusel-controller--left`}
-                className="carusel_control--left"
+                data-cy={`${qaSelector}carousel-controller--left`}
+                className="carousel_control--left"
             >
                 Prev
             </div>
             <div
                 onClick={this.onClickRight}
-                data-cy={`${qaSelector}carusel-controller--right`}
-                className="carusel_control--right"
+                data-cy={`${qaSelector}carousel-controller--right`}
+                className="carousel_control--right"
             >
                 Next
             </div>

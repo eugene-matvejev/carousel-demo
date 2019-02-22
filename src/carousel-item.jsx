@@ -1,28 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CaruselItem = ({ src, position, tags, qaSelector }) =>
-    <div data-cy={qaSelector} className="carusel-item">
+const CarouselItem = ({ src, position, tags, qaSelector }) =>
+    <div data-cy={qaSelector} className="carousel-item">
         <div
             data-cy={qaSelector}
-            className="carusel-item__image"
+            className="carousel-item__image"
             style={{
                 backgroundImage: `url("${src}")`,
             }}
         >
             {position}
         </div>
-        <span data-cy={`${qaSelector}tags`} className="carusel-item__tags">{tags}</span>
+        <span data-cy={`${qaSelector}tags`} className="carousel-item__tags">{tags}</span>
     </div>;
 
-CaruselItem.propTypes = {
+CarouselItem.propTypes = {
     qaSelector: PropTypes.string,
     src: PropTypes.string.isRequired,
     tags: PropTypes.string.isRequired,
 }
 
-CaruselItem.defaultProps = {
+CarouselItem.defaultProps = {
     qaSelector: '',
 }
 
-export default CaruselItem;
+export default CarouselItem;
