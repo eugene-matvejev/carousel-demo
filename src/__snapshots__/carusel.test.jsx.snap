@@ -37,6 +37,11 @@ exports[`<Carusel/> render with optional props ::limit as "1" 1`] = `
   <div
     className="carusel_container"
   >
+    <div
+      className="carusel_mobile-control--left"
+      data-cy="carusel-mobile-controller--left"
+      onClick={[Function]}
+    />
     <CaruselItem
       key="0"
       position={0}
@@ -44,24 +49,25 @@ exports[`<Carusel/> render with optional props ::limit as "1" 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
+    <div
+      className="carusel_mobile-control--right"
+      data-cy="carusel-mobile-controller--right"
+      onClick={[Function]}
+    />
   </div>
   <div
-    className="carusel_controls"
+    className="carusel_control--left"
+    data-cy="carusel-controller--left"
+    onClick={[Function]}
   >
-    <div
-      className="carusel_control--left"
-      data-cy="carusel-controller--left"
-      onClick={[Function]}
-    >
-      Prev
-    </div>
-    <div
-      className="carusel_control--right"
-      data-cy="carusel-controller--right"
-      onClick={[Function]}
-    >
-      Next
-    </div>
+    Prev
+  </div>
+  <div
+    className="carusel_control--right"
+    data-cy="carusel-controller--right"
+    onClick={[Function]}
+  >
+    Next
   </div>
 </section>
 `;
@@ -73,6 +79,11 @@ exports[`<Carusel/> render with optional props ::position as "1" 1`] = `
   <div
     className="carusel_container"
   >
+    <div
+      className="carusel_mobile-control--left"
+      data-cy="carusel-mobile-controller--left"
+      onClick={[Function]}
+    />
     <CaruselItem
       key="0"
       position={1}
@@ -108,24 +119,25 @@ exports[`<Carusel/> render with optional props ::position as "1" 1`] = `
       src="{{src1}}"
       tags="{{tags1}}"
     />
+    <div
+      className="carusel_mobile-control--right"
+      data-cy="carusel-mobile-controller--right"
+      onClick={[Function]}
+    />
   </div>
   <div
-    className="carusel_controls"
+    className="carusel_control--left"
+    data-cy="carusel-controller--left"
+    onClick={[Function]}
   >
-    <div
-      className="carusel_control--left"
-      data-cy="carusel-controller--left"
-      onClick={[Function]}
-    >
-      Prev
-    </div>
-    <div
-      className="carusel_control--right"
-      data-cy="carusel-controller--right"
-      onClick={[Function]}
-    >
-      Next
-    </div>
+    Prev
+  </div>
+  <div
+    className="carusel_control--right"
+    data-cy="carusel-controller--right"
+    onClick={[Function]}
+  >
+    Next
   </div>
 </section>
 `;
@@ -137,6 +149,11 @@ exports[`<Carusel/> render with optional props ::qaSelector as "{{qaSelector}}" 
   <div
     className="carusel_container"
   >
+    <div
+      className="carusel_mobile-control--left"
+      data-cy="{{qaSelector}}carusel-mobile-controller--left"
+      onClick={[Function]}
+    />
     <CaruselItem
       key="0"
       position={0}
@@ -172,24 +189,25 @@ exports[`<Carusel/> render with optional props ::qaSelector as "{{qaSelector}}" 
       src="{{src0}}"
       tags="{{tags0}}"
     />
+    <div
+      className="carusel_mobile-control--right"
+      data-cy="{{qaSelector}}carusel-mobile-controller--right"
+      onClick={[Function]}
+    />
   </div>
   <div
-    className="carusel_controls"
+    className="carusel_control--left"
+    data-cy="{{qaSelector}}carusel-controller--left"
+    onClick={[Function]}
   >
-    <div
-      className="carusel_control--left"
-      data-cy="{{qaSelector}}carusel-controller--left"
-      onClick={[Function]}
-    >
-      Prev
-    </div>
-    <div
-      className="carusel_control--right"
-      data-cy="{{qaSelector}}carusel-controller--right"
-      onClick={[Function]}
-    >
-      Next
-    </div>
+    Prev
+  </div>
+  <div
+    className="carusel_control--right"
+    data-cy="{{qaSelector}}carusel-controller--right"
+    onClick={[Function]}
+  >
+    Next
   </div>
 </section>
 `;
@@ -207,6 +225,11 @@ exports[`<Carusel/> render with optional props ::title as "{{title}}" 1`] = `
   <div
     className="carusel_container"
   >
+    <div
+      className="carusel_mobile-control--left"
+      data-cy="carusel-mobile-controller--left"
+      onClick={[Function]}
+    />
     <CaruselItem
       key="0"
       position={0}
@@ -242,24 +265,25 @@ exports[`<Carusel/> render with optional props ::title as "{{title}}" 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
+    <div
+      className="carusel_mobile-control--right"
+      data-cy="carusel-mobile-controller--right"
+      onClick={[Function]}
+    />
   </div>
   <div
-    className="carusel_controls"
+    className="carusel_control--left"
+    data-cy="carusel-controller--left"
+    onClick={[Function]}
   >
-    <div
-      className="carusel_control--left"
-      data-cy="carusel-controller--left"
-      onClick={[Function]}
-    >
-      Prev
-    </div>
-    <div
-      className="carusel_control--right"
-      data-cy="carusel-controller--right"
-      onClick={[Function]}
-    >
-      Next
-    </div>
+    Prev
+  </div>
+  <div
+    className="carusel_control--right"
+    data-cy="carusel-controller--right"
+    onClick={[Function]}
+  >
+    Next
   </div>
 </section>
 `;
@@ -271,6 +295,11 @@ exports[`<Carusel/> render with required/default props 1`] = `
   <div
     className="carusel_container"
   >
+    <div
+      className="carusel_mobile-control--left"
+      data-cy="carusel-mobile-controller--left"
+      onClick={[Function]}
+    />
     <CaruselItem
       key="0"
       position={0}
@@ -306,24 +335,25 @@ exports[`<Carusel/> render with required/default props 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
+    <div
+      className="carusel_mobile-control--right"
+      data-cy="carusel-mobile-controller--right"
+      onClick={[Function]}
+    />
   </div>
   <div
-    className="carusel_controls"
+    className="carusel_control--left"
+    data-cy="carusel-controller--left"
+    onClick={[Function]}
   >
-    <div
-      className="carusel_control--left"
-      data-cy="carusel-controller--left"
-      onClick={[Function]}
-    >
-      Prev
-    </div>
-    <div
-      className="carusel_control--right"
-      data-cy="carusel-controller--right"
-      onClick={[Function]}
-    >
-      Next
-    </div>
+    Prev
+  </div>
+  <div
+    className="carusel_control--right"
+    data-cy="carusel-controller--right"
+    onClick={[Function]}
+  >
+    Next
   </div>
 </section>
 `;

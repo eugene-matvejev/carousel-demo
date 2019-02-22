@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import CaruselItem from './carusel-item';
-// import Icon from './icon';
 
 export default class Carusel extends PureComponent {
     constructor({ position }) {
@@ -59,6 +58,11 @@ export default class Carusel extends PureComponent {
                 </div>
             }
             <div className="carusel_container">
+                <div
+                    onClick={this.onClickLeft}
+                    data-cy={`${qaSelector}carusel-mobile-controller--left`}
+                    className="carusel_mobile-control--left"
+                />
                 {
                     items.map((props, i) => <CaruselItem
                         key={i}
@@ -68,24 +72,25 @@ export default class Carusel extends PureComponent {
                         position={this.props.items.indexOf(props)}
                     />)
                 }
-            </div>
-            <div className="carusel_controls">
-                <div
-                    onClick={this.onClickLeft}
-                    data-cy={`${qaSelector}carusel-controller--left`}
-                    className="carusel_control--left"
-                >
-                    Prev
-                    {/* <Icon src="//assets/svg/arrow.svg" /> */}
-                </div>
                 <div
                     onClick={this.onClickRight}
-                    data-cy={`${qaSelector}carusel-controller--right`}
-                    className="carusel_control--right"
-                >
-                    Next
-                    {/* <Icon src="//assets/svg/arrow.svg" /> */}
-                </div>
+                    data-cy={`${qaSelector}carusel-mobile-controller--right`}
+                    className="carusel_mobile-control--right"
+                />
+            </div>
+            <div
+                onClick={this.onClickLeft}
+                data-cy={`${qaSelector}carusel-controller--left`}
+                className="carusel_control--left"
+            >
+                Prev
+            </div>
+            <div
+                onClick={this.onClickRight}
+                data-cy={`${qaSelector}carusel-controller--right`}
+                className="carusel_control--right"
+            >
+                Next
             </div>
         </section>;
     }

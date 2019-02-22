@@ -16,22 +16,97 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background: #dbdbdb;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width : 750px) {
     html {
         font-size: 12px;
     }
-}
 
-@media only screen and (max-width: 1280px) {
-    html {
-        font-size: 14px;
+    .carusel-item:not(:first-child):not(:nth-child(2)):not(:last-child) {
+        display: none;
     }
-}
 
-@media only screen and (max-width: 1440px) {
-    html {
-        font-size: 16px;
+    .carusel {
+        align-items: baseline;
+
+        &_container &-item:nth-child(2) {
+            padding: 0;
+        }
+
+        align-items: center;
+        flex-direction: column;
+        
+        &_container {
+            order: 2;
+            position: relative;
+            flex: initial;
+        }
+
+        &_title {
+            align-self: flex-start;
+            flex: 3 100%;
+        }
+
+        &_mobile-control {
+            &--left, &--right {
+                top: 50%;
+
+                margin: 0;
+
+                position: absolute;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                &::after,
+                &::before {
+                    font-size: 4rem;
+                    position: absolute;
+                    width: 4rem;
+                    height: 5rem;
+                    line-height: 4rem;
+                    background: rgba(255, 255, 255, .33);
+                    color: $baseColour;
+                }
+            }
+
+            &--left {
+                order: 1;
+
+                left: 0;
+                &::after {
+                    border-top-right-radius: 5rem;
+                    border-bottom-right-radius: 5rem;
+    
+                    padding: 1rem 0 1rem 0;
+                    text-align: left;
+                    content: '<';
+                }
+            }
+
+            &--right {
+                order: 3;
+
+                right: 4rem;
+                &::before {
+                    border-top-left-radius: 5rem;
+                    border-bottom-left-radius: 5rem;
+    
+                    padding: 1rem 0 1rem 0;
+                    text-align: right;
+                    content: '>';
+                }
+            }
+        }
+
+        &_control {
+            &--left, &--right {
+                display: none;
+            }
+        }
     }
 }
