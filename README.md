@@ -60,18 +60,20 @@
   * example: `$ PORT=8080 npm start`
  
 ## how to install
-
+* `$ npm i`
 * `$ npm start`
 * __to assemble static assets__
   * `$ npm run build` - compile app and assets, compiled app will be located in __./build__ directory
 
 ## how to serve 'production' assets
+* `$ npm run i`
 * `$ npm run build`
 * `$ npm run start:static` 
 
 ## how to run tests
 
 ### unit and functional tests
+* `$ npm i`
 * `$ npm test`
 * __optional__
   * `--coverage` to generate coverage report [located in __./coverage__ directory]
@@ -79,18 +81,17 @@
   * [additional jest CLI params](https://facebook.github.io/jest/docs/en/cli.html)
 
 ### intergration tests
+* `$ npm i`
+* `$ npm run start &`
 * `$ cd utils/cypress`
 * `$ npm test`
    
 ## gitlow
 
 * master -> most upto date 'production' version
-* TODO: heroku -> demo branch [master is not deployed to heroku with every push, because of constrains on 'free account']
+* heroku -> demo branch [master is not deployed to heroku with every push, because of constrains on 'free account']
 * other branches -> 'feature branches' get merged into master
 * coverage report check / CI build is mandatory checks for every PR to be merged in
-
-
-
 
 # Publicis.Sapient Front End Senior Associate Test
 
