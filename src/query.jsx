@@ -45,7 +45,10 @@ export default class Query extends PureComponent {
     static propTypes = {
         qaSelector: PropTypes.string,
         onMount: PropTypes.func.isRequired,
-        children: PropTypes.node.isRequired,
+        children: PropTypes.oneOfType([
+            PropTypes.func,
+            PropTypes.node,
+        ]).isRequired,
     }
 
     static defaultProps = {
