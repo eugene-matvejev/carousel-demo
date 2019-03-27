@@ -26,6 +26,16 @@ describe('<Query/>', () => {
                 });
             });
         });
+
+        describe('children render [render props approach]', () => {
+            it('if internal state field [::isLoading] is true, it should call children with arguments [props, internal state]', () => {
+                const spy = spyOn(props, 'children');
+
+                const c = shallow(<Query {...props} onMount={(_, __, onSuccess, onError) => onSuccess() }/>);
+
+                expect(spy).toBeCalledWith(c.instance().props, c.state());
+            });
+        });
     });
 
     describe('lifecycles events', () => {
@@ -35,7 +45,7 @@ describe('<Query/>', () => {
 
                 const c = shallow(<Query {...props}/>);
 
-                expect(spy).toBeCalledWith({...props, ...Query.defaultProps }, c.state(), c.instance().onSuccess, c.instance().onError);
+                expect(spy).toBeCalledWith(c.instance().props, c.state(), c.instance().onSuccess, c.instance().onError);
             });
         });
     });
