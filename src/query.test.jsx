@@ -35,7 +35,7 @@ describe('<Query/>', () => {
 
                 const c = shallow(<Query {...props}/>);
 
-                expect(spy).toBeCalledWith({...props, ...Query.defaultProps }, c.state(), c.instance().onSuccess, c.instance().onError);
+                expect(spy).toBeCalledWith(c.instance().props, c.state(), c.instance().onSuccess, c.instance().onError);
             });
         });
     });
