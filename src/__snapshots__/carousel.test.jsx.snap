@@ -37,22 +37,12 @@ exports[`<Carousel/> render with optional props ::limit as "1" 1`] = `
   <div
     className="carousel_container"
   >
-    <button
-      className="carousel_mobile-control--left"
-      data-cy="carousel-mobile-controller--left"
-      onClick={[Function]}
-    />
     <CarouselItem
       key="0"
       position={0}
       qaSelector="carousel-item__0"
       src="{{src0}}"
       tags="{{tags0}}"
-    />
-    <button
-      className="carousel_mobile-control--right"
-      data-cy="carousel-mobile-controller--right"
-      onClick={[Function]}
     />
   </div>
   <button
@@ -79,11 +69,6 @@ exports[`<Carousel/> render with optional props ::position as "1" 1`] = `
   <div
     className="carousel_container"
   >
-    <button
-      className="carousel_mobile-control--left"
-      data-cy="carousel-mobile-controller--left"
-      onClick={[Function]}
-    />
     <CarouselItem
       key="0"
       position={1}
@@ -119,11 +104,6 @@ exports[`<Carousel/> render with optional props ::position as "1" 1`] = `
       src="{{src1}}"
       tags="{{tags1}}"
     />
-    <button
-      className="carousel_mobile-control--right"
-      data-cy="carousel-mobile-controller--right"
-      onClick={[Function]}
-    />
   </div>
   <button
     className="carousel_control--left"
@@ -149,11 +129,6 @@ exports[`<Carousel/> render with optional props ::qaSelector as "{{qaSelector}}"
   <div
     className="carousel_container"
   >
-    <button
-      className="carousel_mobile-control--left"
-      data-cy="{{qaSelector}}carousel-mobile-controller--left"
-      onClick={[Function]}
-    />
     <CarouselItem
       key="0"
       position={0}
@@ -189,11 +164,6 @@ exports[`<Carousel/> render with optional props ::qaSelector as "{{qaSelector}}"
       src="{{src0}}"
       tags="{{tags0}}"
     />
-    <button
-      className="carousel_mobile-control--right"
-      data-cy="{{qaSelector}}carousel-mobile-controller--right"
-      onClick={[Function]}
-    />
   </div>
   <button
     className="carousel_control--left"
@@ -225,11 +195,6 @@ exports[`<Carousel/> render with optional props ::title as "{{title}}" 1`] = `
   <div
     className="carousel_container"
   >
-    <button
-      className="carousel_mobile-control--left"
-      data-cy="carousel-mobile-controller--left"
-      onClick={[Function]}
-    />
     <CarouselItem
       key="0"
       position={0}
@@ -264,11 +229,6 @@ exports[`<Carousel/> render with optional props ::title as "{{title}}" 1`] = `
       qaSelector="carousel-item__4"
       src="{{src0}}"
       tags="{{tags0}}"
-    />
-    <button
-      className="carousel_mobile-control--right"
-      data-cy="carousel-mobile-controller--right"
-      onClick={[Function]}
     />
   </div>
   <button
@@ -295,11 +255,6 @@ exports[`<Carousel/> render with required/default props 1`] = `
   <div
     className="carousel_container"
   >
-    <button
-      className="carousel_mobile-control--left"
-      data-cy="carousel-mobile-controller--left"
-      onClick={[Function]}
-    />
     <CarouselItem
       key="0"
       position={0}
@@ -334,11 +289,6 @@ exports[`<Carousel/> render with required/default props 1`] = `
       qaSelector="carousel-item__4"
       src="{{src0}}"
       tags="{{tags0}}"
-    />
-    <button
-      className="carousel_mobile-control--right"
-      data-cy="carousel-mobile-controller--right"
-      onClick={[Function]}
     />
   </div>
   <button
