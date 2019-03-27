@@ -23,13 +23,17 @@
     &_control {
         &--left, &--right {
             background: $baseColour;
+            border: 0;
+
             color: #fff;
-            padding: .5rem;
             cursor: pointer;
+
+            padding: .25rem 1rem;
 
             margin-bottom: 1rem;
             margin-top: 1rem;
-            line-height: 1.5rem;
+
+            font-weight: 900;
         }
 
         &--left {
