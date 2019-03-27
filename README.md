@@ -51,8 +51,10 @@
 
 ## user services
 
-* [CircleCI](https://circleci.com)
-* [Codecov](https://codecov.io/)
+* [CircleCI](https://circleci.com/)
+* [codecov](https://codecov.io/)
+* [snyk](https://snyk.io/)
+
   
 ## used enviroment variables
 
