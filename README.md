@@ -24,11 +24,11 @@
 
 # Carousel DEMO
 ## TODO:
-* WIP - Code structure, quality and consistency
+* DONE - Code structure, quality and consistency
 * DONE - Technology choices
-* WIP - Accessibility
+* DONE - Accessibility
 * WIP - Cross browser compatibility
-* WIP - Responsiveness
+* DONE - Responsiveness
 * WIP - Attention to detail
 * DONE - Clear documentation
 * DONE - Dependency management

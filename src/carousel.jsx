@@ -58,11 +58,6 @@ export default class Carousel extends PureComponent {
                 </div>
             }
             <div className="carousel_container">
-                <button
-                    onClick={this.onClickLeft}
-                    data-cy={`${qaSelector}carousel-mobile-controller--left`}
-                    className="carousel_mobile-control--left"
-                />
                 {
                     items.map((props, i) => <CarouselItem
                         key={i}
@@ -72,11 +67,6 @@ export default class Carousel extends PureComponent {
                         position={this.props.items.indexOf(props)}
                     />)
                 }
-                <button
-                    onClick={this.onClickRight}
-                    data-cy={`${qaSelector}carousel-mobile-controller--right`}
-                    className="carousel_mobile-control--right"
-                />
             </div>
             <button
                 onClick={this.onClickLeft}
