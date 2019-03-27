@@ -54,6 +54,8 @@ body {
                 top: 50%;
 
                 margin: 0;
+                padding: 0;
+                border: 0;
 
                 position: absolute;
 
@@ -67,7 +69,6 @@ body {
                     position: absolute;
                     width: 4rem;
                     height: 5rem;
-                    line-height: 4rem;
                     background: rgba(255, 255, 255, .33);
                     color: $baseColour;
                 }

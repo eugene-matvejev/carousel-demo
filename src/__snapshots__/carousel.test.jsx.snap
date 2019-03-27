@@ -37,7 +37,7 @@ exports[`<Carousel/> render with optional props ::limit as "1" 1`] = `
   <div
     className="carousel_container"
   >
-    <div
+    <button
       className="carousel_mobile-control--left"
       data-cy="carousel-mobile-controller--left"
       onClick={[Function]}
@@ -49,26 +49,26 @@ exports[`<Carousel/> render with optional props ::limit as "1" 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
-    <div
+    <button
       className="carousel_mobile-control--right"
       data-cy="carousel-mobile-controller--right"
       onClick={[Function]}
     />
   </div>
-  <div
+  <button
     className="carousel_control--left"
     data-cy="carousel-controller--left"
     onClick={[Function]}
   >
     Prev
-  </div>
-  <div
+  </button>
+  <button
     className="carousel_control--right"
     data-cy="carousel-controller--right"
     onClick={[Function]}
   >
     Next
-  </div>
+  </button>
 </section>
 `;
 
@@ -79,7 +79,7 @@ exports[`<Carousel/> render with optional props ::position as "1" 1`] = `
   <div
     className="carousel_container"
   >
-    <div
+    <button
       className="carousel_mobile-control--left"
       data-cy="carousel-mobile-controller--left"
       onClick={[Function]}
@@ -119,26 +119,26 @@ exports[`<Carousel/> render with optional props ::position as "1" 1`] = `
       src="{{src1}}"
       tags="{{tags1}}"
     />
-    <div
+    <button
       className="carousel_mobile-control--right"
       data-cy="carousel-mobile-controller--right"
       onClick={[Function]}
     />
   </div>
-  <div
+  <button
     className="carousel_control--left"
     data-cy="carousel-controller--left"
     onClick={[Function]}
   >
     Prev
-  </div>
-  <div
+  </button>
+  <button
     className="carousel_control--right"
     data-cy="carousel-controller--right"
     onClick={[Function]}
   >
     Next
-  </div>
+  </button>
 </section>
 `;
 
@@ -149,7 +149,7 @@ exports[`<Carousel/> render with optional props ::qaSelector as "{{qaSelector}}"
   <div
     className="carousel_container"
   >
-    <div
+    <button
       className="carousel_mobile-control--left"
       data-cy="{{qaSelector}}carousel-mobile-controller--left"
       onClick={[Function]}
@@ -189,26 +189,26 @@ exports[`<Carousel/> render with optional props ::qaSelector as "{{qaSelector}}"
       src="{{src0}}"
       tags="{{tags0}}"
     />
-    <div
+    <button
       className="carousel_mobile-control--right"
       data-cy="{{qaSelector}}carousel-mobile-controller--right"
       onClick={[Function]}
     />
   </div>
-  <div
+  <button
     className="carousel_control--left"
     data-cy="{{qaSelector}}carousel-controller--left"
     onClick={[Function]}
   >
     Prev
-  </div>
-  <div
+  </button>
+  <button
     className="carousel_control--right"
     data-cy="{{qaSelector}}carousel-controller--right"
     onClick={[Function]}
   >
     Next
-  </div>
+  </button>
 </section>
 `;
 
@@ -225,7 +225,7 @@ exports[`<Carousel/> render with optional props ::title as "{{title}}" 1`] = `
   <div
     className="carousel_container"
   >
-    <div
+    <button
       className="carousel_mobile-control--left"
       data-cy="carousel-mobile-controller--left"
       onClick={[Function]}
@@ -265,26 +265,26 @@ exports[`<Carousel/> render with optional props ::title as "{{title}}" 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
-    <div
+    <button
       className="carousel_mobile-control--right"
       data-cy="carousel-mobile-controller--right"
       onClick={[Function]}
     />
   </div>
-  <div
+  <button
     className="carousel_control--left"
     data-cy="carousel-controller--left"
     onClick={[Function]}
   >
     Prev
-  </div>
-  <div
+  </button>
+  <button
     className="carousel_control--right"
     data-cy="carousel-controller--right"
     onClick={[Function]}
   >
     Next
-  </div>
+  </button>
 </section>
 `;
 
@@ -295,7 +295,7 @@ exports[`<Carousel/> render with required/default props 1`] = `
   <div
     className="carousel_container"
   >
-    <div
+    <button
       className="carousel_mobile-control--left"
       data-cy="carousel-mobile-controller--left"
       onClick={[Function]}
@@ -335,25 +335,25 @@ exports[`<Carousel/> render with required/default props 1`] = `
       src="{{src0}}"
       tags="{{tags0}}"
     />
-    <div
+    <button
       className="carousel_mobile-control--right"
       data-cy="carousel-mobile-controller--right"
       onClick={[Function]}
     />
   </div>
-  <div
+  <button
     className="carousel_control--left"
     data-cy="carousel-controller--left"
     onClick={[Function]}
   >
     Prev
-  </div>
-  <div
+  </button>
+  <button
     className="carousel_control--right"
     data-cy="carousel-controller--right"
     onClick={[Function]}
   >
     Next
-  </div>
+  </button>
 </section>
 `;
