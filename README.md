@@ -32,7 +32,7 @@
 * WIP - Attention to detail
 * DONE - Clear documentation
 * DONE - Dependency management
-* WIP - Test quality
+* DONE - Test quality
 
 
 ## THIS IS SPARE TIME PROJECT, WORK IN PROGRESS!
