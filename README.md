@@ -8,11 +8,6 @@
 [codecov.io-heroku-badge]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/heroku/graph/badge.svg
 [codecov.io-heroku-link]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/heroku
 
-[slack_logo]: https://a.slack-edge.com/436da/marketing/img/slack_logo.png
-[slack_url]: https://join.slack.com/t/myth-project/shared_invite/enQtMjk2NTM0MDA5ODQ3LTg3ZDlmYTBiODIwODI0ZjhhMjc2NTgwMDMwNDc0NWMxNzExYzliM2UwYTEzNGMyMGRiZjg0ZTEyOTYwYzM0OTQ
-
-## join our [![join_us_on_slack][slack_logo]][slack_url] channel
-
 |                  | master                                                         | heroku
 |---               |---                                                             |---
 | __tests__        |
