@@ -1,19 +1,19 @@
-[circle.ci-master-badge]: https://circleci.com/gh/eugene-matvejev/carousel-demo/tree/master.svg?style=svg
-[circle.ci-master-link]: https://circleci.com/gh/eugene-matvejev/carousel-demo/tree/master
-[codecov.io-master-badge]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/master/graph/badge.svg
-[codecov.io-master-link]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/master
+[ci.tests-master-badge]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/master.svg?style=svg
+[ci.tests-master]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/master
+[ci.coverage-master-badge]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/master/graph/badge.svg
+[ci.coverage-master]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/master
 
-[circle.ci-heroku-badge]: https://circleci.com/gh/eugene-matvejev/carousel-demo/tree/heroku.svg?style=svg
-[circle.ci-heroku-link]: https://circleci.com/gh/eugene-matvejev/carousel-demo/tree/heroku
-[codecov.io-heroku-badge]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/heroku/graph/badge.svg
-[codecov.io-heroku-link]: https://codecov.io/gh/eugene-matvejev/carousel-demo/branch/heroku
+[ci.tests-heroku-badge]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/heroku.svg?style=svg
+[ci.tests-heroku]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/heroku
+[ci.coverage-heroku-badge]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/heroku/graph/badge.svg
+[ci.coverage-heroku]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/heroku
 
-|                  | master                                                         | heroku
-|---               |---                                                             |---
+|                  | master                                                      | heroku
+|---               |---                                                          |---
 | __tests__        |
-| _< Circle CI >_  | [![build][circle.ci-master-badge]][circle.ci-master-link]      | [![build][circle.ci-heroku-badge]][circle.ci-heroku-link]
+| _< Circle CI >_  | [![tests][ci.tests-master-badge]][ci.tests-master]          | [![tests][ci.tests-heroku-badge]][ci.tests-heroku]
 | __coverage__     |
-| _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link] | [![coverage][codecov.io-heroku-badge]][codecov.io-heroku-link]
+| _< codecov.io >_ | [![coverage][ci.coverage-master-badge]][ci.coverage-master] | [![coverage][ci.coverage-heroku-badge]][ci.coverage-heroku]
 
 [DEMO](https://carousel-demo.herokuapp.com/) it might take a while for first load, as it is 'free tier' heroku account
 
