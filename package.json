@@ -9,13 +9,13 @@
     "react-dom": "^16.8.2",
     "react-scripts": "3.0.0",
     "node-sass": "^4.11.0",
-    "serve": "^10.1.2"
+    "serve": "^11.0.0"
   },
   "devDependencies": {
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "enzyme-to-json": "^3.3.5",
-    "serve": "^10.1.2"
+    "serve": "^11.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
