@@ -1,12 +1,12 @@
-[ci.tests-master-badge]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/master.svg?style=svg
-[ci.tests-master]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/master
-[ci.coverage-master-badge]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/master/graph/badge.svg
-[ci.coverage-master]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/master
+[ci.tests-master-badge]: https://circleci.com/gh/eugene-matvejev/react-carousel-example/tree/master.svg?style=svg
+[ci.tests-master]: https://circleci.com/gh/eugene-matvejev/react-carousel-example/tree/master
+[ci.coverage-master-badge]: https://codecov.io/gh/eugene-matvejev/react-carousel-example/branch/master/graph/badge.svg
+[ci.coverage-master]: https://codecov.io/gh/eugene-matvejev/react-carousel-example/branch/master
 
-[ci.tests-heroku-badge]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/heroku.svg?style=svg
-[ci.tests-heroku]: https://circleci.com/gh/eugene-matvejev/react.js-carousel-example/tree/heroku
-[ci.coverage-heroku-badge]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/heroku/graph/badge.svg
-[ci.coverage-heroku]: https://codecov.io/gh/eugene-matvejev/react.js-carousel-example/branch/heroku
+[ci.tests-heroku-badge]: https://circleci.com/gh/eugene-matvejev/react-carousel-example/tree/heroku.svg?style=svg
+[ci.tests-heroku]: https://circleci.com/gh/eugene-matvejev/react-carousel-example/tree/heroku
+[ci.coverage-heroku-badge]: https://codecov.io/gh/eugene-matvejev/react-carousel-example/branch/heroku/graph/badge.svg
+[ci.coverage-heroku]: https://codecov.io/gh/eugene-matvejev/react-carousel-example/branch/heroku
 
 |               | master                                                        | heroku
 |---            |---                                                            | ---
