@@ -18,17 +18,6 @@
 [DEMO](https://carousel-demo.herokuapp.com/) it might take a while for first load, as it is 'free tier' heroku account
 
 # Carousel DEMO
-## TODO:
-* DONE - Code structure, quality and consistency
-* DONE - Technology choices
-* DONE - Accessibility
-* WIP - Cross browser compatibility
-* DONE - Responsiveness
-* WIP - Attention to detail
-* DONE - Clear documentation
-* DONE - Dependency management
-* DONE - Test quality
-
 
 ## THIS IS SPARE TIME PROJECT, WORK IN PROGRESS!
 
