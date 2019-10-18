@@ -72,10 +72,10 @@
 ### unit and functional tests
 * `$ npm i`
 * `$ npm test`
-* __optional__
-  * `--coverage` to generate coverage report [located in __./coverage__ directory]
-  * example: `$ npm test -- --coverage`
-  * [additional jest CLI params](https://facebook.github.io/jest/docs/en/cli.html)
+* functional 'jest' tests: `$ make test` or `$ npm test`
+  * __optional__ [ 'jest' CLI params](https://facebook.github.io/jest/docs/en/cli.html), examples:
+    * to collect coverage, example: `$ npm test -- --coverage`, report will be located in __./coverage__ directory
+    * to run tests __only__ in specific file, example: `$ npm test src/carousel-item.jsx`
 
 ### intergration tests
 * `$ npm i`
